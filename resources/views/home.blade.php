@@ -19,9 +19,12 @@
 </head>
 
 <body>
+    {{-- importiamo il componente header --}}
     <x-header />
 
+    {{-- semplice testo per vedere il cambiamento effettivo --}}
     <h1>Hello world</h1>
+    {{-- le info passate con l'array associativo NB la sintassi con la doppia graffa --}}
     <p>{{ $saluto }} {{ $nome }}</p>
 </body>
 
